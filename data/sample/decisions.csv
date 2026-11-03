@@ -1,0 +1,24 @@
+bank,bank_name,time_utc,date,rate,change_bp
+fed,Federal Reserve,2025-12-10T19:00:00.000Z,2025-12-10,3.75,-25
+fed,Federal Reserve,2026-01-28T19:00:00.000Z,2026-01-28,3.75,0
+fed,Federal Reserve,2026-03-18T18:00:00.000Z,2026-03-18,3.75,0
+fed,Federal Reserve,2026-04-29T18:00:00.000Z,2026-04-29,3.75,0
+fed,Federal Reserve,2026-06-17T18:00:00.000Z,2026-06-17,3.75,0
+fed,Federal Reserve,2026-07-29T18:00:00.000Z,2026-07-29,3.75,0
+fed,Federal Reserve,2026-09-16T18:00:00.000Z,2026-09-16,4,25
+fed,Federal Reserve,2026-10-28T18:00:00.000Z,2026-10-28,4,0
+ecb,European Central Bank,2025-12-18T13:15:00.000Z,2025-12-18,2,0
+ecb,European Central Bank,2026-02-05T13:15:00.000Z,2026-02-05,2,0
+ecb,European Central Bank,2026-03-19T13:15:00.000Z,2026-03-19,2,0
+ecb,European Central Bank,2026-04-30T12:15:00.000Z,2026-04-30,2,0
+ecb,European Central Bank,2026-06-11T12:15:00.000Z,2026-06-11,2.25,25
+ecb,European Central Bank,2026-07-23T12:15:00.000Z,2026-07-23,2.25,0
+ecb,European Central Bank,2026-09-10T12:15:00.000Z,2026-09-10,2.5,25
+ecb,European Central Bank,2026-10-29T13:15:00.000Z,2026-10-29,2.5,0
+boe,Bank of England,2025-12-18T12:00:00.000Z,2025-12-18,3.75,-25
+boe,Bank of England,2026-02-05T12:00:00.000Z,2026-02-05,3.75,0
+boe,Bank of England,2026-03-19T12:00:00.000Z,2026-03-19,3.75,0
+boe,Bank of England,2026-04-30T11:00:00.000Z,2026-04-30,3.75,0
+boe,Bank of England,2026-06-18T11:00:00.000Z,2026-06-18,3.75,0
+boe,Bank of England,2026-07-30T11:00:00.000Z,2026-07-30,3.75,0
+boe,Bank of England,2026-09-17T11:00:00.000Z,2026-09-17,3.75,0

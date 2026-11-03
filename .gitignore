@@ -1,0 +1,8 @@
+# Your own downloads: Dukascopy's candles are not ours to redistribute.
+candles/
+consensus.csv
+.dukascopy-cache/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+notebooks-repo/

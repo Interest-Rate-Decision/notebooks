@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # The .ipynb files are built from scripts/build_notebooks.py: they must match it.
+      - run: python scripts/build_notebooks.py && git diff --exit-code -- '*.ipynb'
+      # Every notebook runs end to end on the synthetic sample, offline.
+      - run: jupyter nbconvert --to notebook --execute --output-dir /tmp/executed 0*.ipynb
